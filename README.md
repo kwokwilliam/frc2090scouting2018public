@@ -17,10 +17,10 @@ To learn more git stuff, read my [INFO 201](https://info201.github.io/) class bo
 To understand JavaScript, then React, you'll want to read this course book, [INFO 343](https://info343.github.io/). It is how I learned most of it. I was required to understand it before class, and learn it on my own. While debugging was helpful with teacher guidance, it is definitely possible to learn it all on your own enough to rebuild my app to be better.
 
 ## Firebase
-You will need to create your own project on firebase.google.com, it's free to use, and it was what I used.
+You will need to create your own project on http://firebase.google.com, it's free to use, and it was what I used.
 - Add project, then you can click on the "Add firebase to your web app" button, and copy the part within the `<script>` tag into `src/index.js` replacing where mine is. You are not done yet.
 - Go to database on the sidebar, enable Realtime Database, then under "Rules", change `.read` and `.write` to true.
 - My app used client side validation which is good enough for FRC teams, as there is no huge need to be secure. It's fairly easy to implement server side validation, but I was just too rushed to do so. Publish the changes.
 - Under `src/AppDataPage.js` I have a button all the way on the bottom that calls a method that creates the teams in the database. You can uncomment it and click on it to add teams. If you don't like the changes, you can delete the entire entry in the database.
 - You can modify the teams that are added by modifying the `addTeams()` method. I input them by hand, but there are easy ways to do so from an excel/csv file.
-- You should be good to go. 
+- You should be good to go.
