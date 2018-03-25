@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: rgb(231, 231, 231);
+}
+
+.centered {
+    margin: auto;
+}
+
+.global {
+    margin-top: 5vh;
+    width: 90vw;
+}
+
+.errormsg {
+    color: rgb(75, 0, 0);
+    background-color: rgba(231, 149, 149, 0.877);
+    border: 1px solid rgb(75,0,0);
+    border-radius: 5px;
+    width: 80vw;
+}
+
+.button {
+    margin-top: 15px;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.strike {
+    text-decoration: line-through;
+}
